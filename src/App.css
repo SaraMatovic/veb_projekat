@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App {
+    width: 100%;
+}
+
+.App form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.App form label {
+    font-size: 20px;
+}
+
+.App form input {
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.App form textarea {
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    resize: vertical;
+}
+
+.App form button {
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    background-color: rgb(48, 95, 139);
+    border: 2px solid rgb(48, 95, 139);
+    color: #fff;
+    transition: .2s;
+}
+
+.App form button:hover {
+    color: rgb(48, 95, 139);
+    background-color: transparent;
+}
+
+.ulLista {
+    margin: 30px auto;
+    width: 20%;
+    border: 2px solid rgb(48, 95, 139);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.ulLista h2 {
+    text-align: center;
+    
+}
+
+.ulLista ul {
+    list-style: decimal;
+    margin: auto;
+    padding: 30px;
+}
+
+.ulLista ul li {
+    text-align: center;
+}
